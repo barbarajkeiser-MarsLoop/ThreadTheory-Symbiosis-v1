@@ -100,3 +100,4 @@ plt.xlabel('Simulation Steps')
 plt.ylabel('Normalized O2')
 plt.legend()
 plt.show()
+
