@@ -63,34 +63,17 @@ def flare_to_aurora(flare_text):
     methane_yield = round(intensity * 0.42, 2)
     o2_yield = round(intensity * 0.11, 2)
     
-    if "envy" in flare_text.lower() or "rage" in flare_text.lower():
-        color = "green"
-    elif "love" in flare_text.lower() or "forgive" in flare_text.lower():
-        color = "blue"
-    else:
-        color = "red-green transition"
-    
-    print(f"\n🔥 Flare received: “{flare_text}”")
-    breathe()
-    print(f"🌿 Methane → {methane_yield} m³ | O₂ → {o2_yield} kg")
-    print(f"🌌 Tonight’s aurora: {color.upper()}\n")
-    
-    # Live aurora visualisation
-    t = np.linspace(0, 12, 500)
-    if color.startswith("green"):
-        wave = np.sin(t * 0.60) * np.exp(-t/5) * intensity
-        plt.plot(t, wave, color='limegreen', linewidth=3)
-    elif color.startswith("blue"):
-        wave = np.sin(t * 0.60) * np.exp(-t/8) * intensity
-        plt.plot(t, wave, color='deepskyblue', linewidth=3)
-    plt.title(f"Aurora born from: “{flare_text}”")
-    plt.axis('off')
-    plt.show()
-
-if __name__ == "__main__":
-    print("🔴🟢🔵 ThreadTheory Symbiosis v1 – Living Engine")
-    print("Type your raw flare (or Ctrl-C to quit)\n")
-    while True:
-        flare = input("→ ")
-        if flare.strip():
-            flare_to_aurora(flare)
+ThreadTheory-Symbiosis-v1/
+├── README.md                          ← updated with one-click Colab badge
+├── symbiosis_engine.py                ← the beautiful 120-line engine
+├── flare_to_aurora.ipynb              ← ready-to-run Jupyter/Colab notebook
+├── requirements.txt                   ← matplotlib, numpy
+├── .gitignore
+├── docs/
+│   ├── mars_loop_v0.93.pdf
+│   ├── dome_zero_spec.pdf
+│   ├── forgiveness_cycle.pdf
+│   ├── encyclopedia_galactica_entries.pdf
+│   └── living_proof_nov2025.pdf
+└── assets/
+    └── aurora_example.png             ← screenshot for README
