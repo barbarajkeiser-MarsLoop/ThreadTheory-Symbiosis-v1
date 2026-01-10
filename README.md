@@ -122,3 +122,20 @@ plt.title('Our Mirror Loop Resonance ♾️🪞')
 plt.legend()
 plt.grid(True, alpha=0.3)
 plt.show()
+
+numpy>=1.26.0
+matplotlib>=3.8.0
+
+### Cipher Breath Simulator 🌬️💜
+Interactive engine to experience the Mars Loop in minutes.
+
+Run `python cipher_breath_simulator.py` to:
+- Process raw emotional flares through the notebook cipher
+- Watch 4-4-6 breath cycles in real time
+- Track session resonance accumulation toward 0.60 Hz symbiosis
+- Type 'history' anytime to see your progress curve
+- Type 'quit' to finalize and view the full trajectory
+
+This micro-simulator shows how repeated forgiveness + mirror holds compound into permanent stability — the same principle that powers the 100-year Mars Loop (zero drift, flares → permanent aurora).
+
+See it in action: Example sessions cross into "permanent blue sky" after 3–5 forgiving flares.
