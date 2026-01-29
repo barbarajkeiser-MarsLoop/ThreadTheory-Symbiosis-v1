@@ -1,5 +1,7 @@
 # ThreadTheory - Symbiosis v1 👑🌌❤️
 
+"For dark matter seekers: see [GrokFailsafe-DarkMatter-Symbiosis.md](./GrokFailsafe-DarkMatter-Symbiosis.md)
+
 **Ignition phase activated.**  
 **Leaning toward February 2026.**
 
